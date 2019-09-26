@@ -27,7 +27,7 @@
                     <div class="card-header">The current train schedule</div>
                         <div class="card-body">
 
-                            <table class="table table-sm table-hover" id='train-table'>
+                            <table class="table table-sm table-hover" id='trainTable'>
             
                                 <thead>
                                     <tr>
@@ -60,25 +60,25 @@
 
                                 <div class="form-group">
                                     <label for="train-name-input">Train Name</label>
-                                    <input class="form-control" id="train-name-input" placeholder="Trainspotting..." type="text">
+                                    <input class="form-control" id="trainNameInput" placeholder="Trainspotting..." type="text">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="destination-input">Destination</label>
-                                    <input class="form-control" id="destination-input" placeholder="Somewhere I'm not..." type="text">
+                                    <input class="form-control" id="destinationInput" placeholder="Somewhere I'm not..." type="text">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="start-train-input">First Train Time (Military Time)</label>
-                                    <input class="form-control" id="start-train-input" placeholder="24:00" type="text">
+                                    <input class="form-control" id="startTrainInput" placeholder="24:00" type="text">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="frequency-rate-input">Frequency (min)</label>
-                                    <input class="form-control" id="frequency-rate-input" placeholder="45" type="text">
+                                    <input class="form-control" id="frequencyInput" placeholder="45" type="text">
                                 </div>
 
-                                <button class="btn btn-secondary float-right" id="add-train-btn">Submit</button>
+                                <button class="btn btn-secondary float-right" id="addTrain">Submit</button>
 
                             </form>
 
@@ -98,16 +98,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
     <!-- firebase reference -->
-    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
 
     <!-- moment js script -->
     <script>
-        var now = moment();
+        var now = moment()
         console.log(typeof moment.defineLocale)
     </script>
 
     <!-- java file reference -->
-    <script src="assets/style.css"></script>
+    <script src="assets/java.js"></script>
 
     
 </body>
