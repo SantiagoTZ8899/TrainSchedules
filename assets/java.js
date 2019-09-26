@@ -21,7 +21,7 @@ $('#addTrain').on('click', function(e) {
     let trainName = $('#trainNameInput').val().trim(),
         destination = $('#destinationInput').val().trim(),
         startTrain = moment($('#startTrainInput').val().trim(), 'HH:mm').format('HH:mm');
-        frequency = $('#frequency').val().trim(),
+        frequency = $('#frequencyInput').val().trim();
 
     // object for firebase made of user inputs
     newTrain = {
@@ -39,7 +39,7 @@ $('#addTrain').on('click', function(e) {
     $('#trainNameInput').val('');
     $('#destinationInput').val('');
     $('#startTrainInput').val('');
-    $('#frequency').val('');
+    $('#frequencyInput').val('');
 
 }); 
 
