@@ -6,13 +6,15 @@ var firebaseConfig = {
     projectId: "train-13586",
     storageBucket: "",
     messagingSenderId: "56955142852",
-    appId: "1:56955142852:web:cda13b728e55958c3cff91"
+    // appId: "1:56955142852:web:cda13b728e55958c3cff91"
 };
 
 firebase.initializeApp(firebaseConfig);
 
 // firebase variable
-let database = firebase.firestore();
+// console.log(firebase.database());
+
+let database = firebase.database();
 
 // button for adding submited form
 $('#addTrain').on('click', function(e) {
