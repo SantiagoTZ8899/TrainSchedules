@@ -49,11 +49,11 @@ database.ref().on('child_added', function(childSnapshot) {
         console.log(frequency);
 
     let infoLine = $('<tr>').append(
-        $('<tr>').text(trainName),
-        $('<tr>').text(destination),
-        $('<tr>').text(frequency),
-        $('<tr>').text(nextTrain),
-        $('<tr>').text(minutesAway)
+        $('<td>').text(trainName),
+        $('<td>').text(destination),
+        $('<td>').text(nextTrain),
+        $('<td>').text(frequency),
+        $('<td>').text(minutesAway)
     );
 
     $('#trainTable > tbody').append(infoLine);
