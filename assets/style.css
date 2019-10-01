@@ -1,17 +1,32 @@
-#body {
+#mainbody {
     /* background-color: rgb(255, 255, 255); */
     background-image: url("../images/trainbg.jpeg");
+    font-family: 'Kanit', sans-serif;
 }
 
 .jumbotron {
-    background-color: rgba(221, 15, 15, 0.849);
+    background-color: rgba(221, 15, 15, 0.900);
     color: rgb(255, 255, 255);
     border-bottom: solid 4px;
     border-color: darkgrey;
+    font-family: 'Kanit', sans-serif;
 }
 .card-header {
-    background-color: rgba(221, 15, 15, 0.849);
+    background-color: rgba(221, 15, 15, 0.900);
     color: rgb(255, 255, 255);
     border-bottom: solid 4px;
     border-color: darkgrey;
+    font-family: 'Kanit', sans-serif;
+}
+#addtrain{
+    background-color: rgba(221, 15, 15, 0.900);
+    color: rgb(255, 255, 255);
+    border-color: rgba(221, 15, 15, 0.900);
+    font-family: 'Kanit', sans-serif;
+}
+#traintable {
+    font-family: 'Kanit', sans-serif;
+}
+.card-body {
+    font-family: 'Kanit', sans-serif;
 }
