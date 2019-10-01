@@ -1,0 +1,17 @@
+#body {
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url("../images/trainbg.jpeg");
+}
+
+.jumbotron {
+    background-color: rgba(221, 15, 15, 0.849);
+    color: rgb(255, 255, 255);
+    border-bottom: solid 4px;
+    border-color: darkgrey;
+}
+.card-header {
+    background-color: rgba(221, 15, 15, 0.849);
+    color: rgb(255, 255, 255);
+    border-bottom: solid 4px;
+    border-color: darkgrey;
+}
